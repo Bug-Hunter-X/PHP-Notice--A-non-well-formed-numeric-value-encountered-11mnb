@@ -1,0 +1,1 @@
+This example demonstrates a common error in PHP when dealing with numeric operations on arrays. The `calculateSum` function attempts to add numbers in an array; however, if the array contains a string, PHP will issue a notice. The solution is to implement strict type checking to avoid type related errors.
